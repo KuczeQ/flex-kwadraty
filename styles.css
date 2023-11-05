@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('tlo.jpg') center/cover; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+    margin: 10px;
+}
+
+.square, .big-square {
+    text-align: center;
+    border-radius: 10px;
+}
+
+.square {
+    width: 150px;
+    height: 100px;
+    background-color: rgba(52, 152, 219, 0.5); 
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-square {
+    width: 350px;
+    height: 150px;
+    background-color: rgba(231, 76, 60, 0.5);
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    border: none; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: transform 0.2s; 
+}
+
+button:hover {
+    transform: scale(1.1); 
+}
